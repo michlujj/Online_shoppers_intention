@@ -1,8 +1,4 @@
 # to use Random Forest C4.5 and C5.0 algorithm for comparison
-# https://www.listendata.com/2014/11/random-forest-with-r.html
-# https://rpubs.com/phamdinhkhanh/389752
-# https://rpubs.com/kjmazidi/195428
-# https://machinelearningmastery.com/non-linear-classification-in-r-with-decision-trees/
 # optimal no. mtry:https://machinelearningmastery.com/tune-machine-learning-algorithms-in-r/
 
 rm(list = ls()) # to clear the environment on R console
