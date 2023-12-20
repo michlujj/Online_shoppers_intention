@@ -470,15 +470,3 @@ plot(dtmodel)
 C5.0 <- confusionMatrix(results, factor(testData$Revenue))
 C5.0
 
-# R codes for Support Vector Machine
-# https://www.edureka.co/blog/support-vector-machine-in-r/
-# # recode missing values with the mean
-#x[is.na(x)] <- mean(x, na.rm = TRUE)
-#https://plos.figshare.com/articles/figure/Variable_importance_plot_mean_decrease_accuracy_and_mean_decrease_Gini_/12060105/1#:~:text=The%20mean%20decrease%20in%20Gini,the%20variable%20in%20the%20model.
-# https://datascience.stackexchange.com/questions/52873/how-to-find-optimal-number-of-trees-in-random-forest-using-grid-search-in-r
-# https://www.r-bloggers.com/2018/01/how-to-implement-random-forests-in-r/
-# https://www.simplilearn.com/tutorials/data-science-tutorial/random-forest-in-r
-# Random forest tree explainer: http://www.css.cornell.edu/faculty/dgr2/_static/files/R_html/CompareRandomForestPackages.html
-# To replace missing value in Fare Column using column means, can use Median also
-# test$Fare <- ifelse(is.na(test$Fare), mean(test$Fare, na.rm = TRUE), test$Fare)
-# R codes for Oversampling using SMOTE: http://amunategui.github.io/smote/
